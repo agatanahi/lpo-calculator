@@ -1,0 +1,12 @@
+# LP Calculator
+# This is to calculate revenue per mile for a driver
+
+#values for the load
+def main ():
+    a = float(input('Gross Revenue: '))
+    b = float(input('Fuel Pay: '))
+    c = float(input('Mileage: '))
+    d = (((a * 7/10) + b) / c)
+        print = ('revenue per mile is', d)
+
+exit main 
