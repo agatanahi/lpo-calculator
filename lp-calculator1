@@ -2,9 +2,9 @@
 # This is to calculate revenue per mile for a driver
 
 # values for the load
-def revenue_per_mile (gross, fuel, mileage)
+def revenue_per_mile (gross, fuel, mileage):
     gross = float(input('Gross Revenue: '))
     fuel = float(input('Fuel Pay: '))
     mileage = float(input('Mileage: '))
     revenue = (((gross * 7/10) + fuel) / mileage)
-        print = ('revenue per mile is' + str(revenue))
+    print(revenue)
